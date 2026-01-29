@@ -26,3 +26,11 @@ Robotics / Trajectory: Open X-Embodiment (机械臂轨迹) [WIP]
     {"bbox_2d": [0.1, 0.2, 0.5, 0.6], "label": "cat"}
   ]
 }
+📸 结果验证 (Verification)
+为了验证坐标归一化逻辑的正确性，我编写了可视化脚本进行反向验证：
+
+(这里建议你：把刚才跑代码生成的 verification_plot.png 图片上传到仓库里，然后在这里放一个图片链接，或者直接把图片拖进 README 编辑框)
+
+🚀 快速开始
+# 流式读取 Visual Genome 数据并转换
+python etl_demo.py
